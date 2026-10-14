@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>A Surprise for Maryam 💖</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="stars" aria-hidden="true"></div>
+  <div class="floating-hearts" aria-hidden="true">
+    <span>♥</span><span>♥</span><span>♥</span><span>♥</span><span>♥</span>
+    <span>♥</span><span>♥</span><span>♥</span><span>♥</span>
+  </div>
+
+  <main class="page">
+    <section class="intro" id="intro">
+      <p class="eyebrow">A LITTLE MAGIC, JUST FOR YOU</p>
+      <h1>A Surprise for<br><span>Maryam</span> <b>♥</b></h1>
+      <p class="subtitle">Some feelings deserve a little sparkle.</p>
+
+      <button class="envelope" id="envelope" aria-label="Open the surprise envelope">
+        <span class="envelope-back"></span>
+        <span class="letter">
+          <span class="letter-small">A LITTLE NOTE FROM MY HEART</span>
+          <strong>Dear Maryam,</strong>
+          <span>You make ordinary moments feel magical. ♥</span>
+        </span>
+        <span class="envelope-front"></span>
+        <span class="envelope-flap"></span>
+        <span class="seal">♥</span>
+      </button>
+      <p class="tap-hint">♥ &nbsp; TAP THE ENVELOPE TO OPEN &nbsp; ♥</p>
+    </section>
+
+    <section class="birthday hidden" id="birthday">
+      <p class="eyebrow">TODAY IS ALL ABOUT YOU ♥</p>
+      <h2>Happy Birthday<br><span>Maryam!</span> <b>♥</b></h2>
+      <p class="wish">Hamesha khush rehna, hamesha muskurati rehna, kyun ke tumhari khushi mere liye bohat maayne rakhti hai. ❤️♾️
+
+<br>Lof loots ve for you, Maryam! 💋❤️🎂</p>
+
+      <div class="cake-wrap" aria-label="Birthday cake with a lit candle">
+        <div class="flame"></div>
+        <div class="candle"></div>
+        <div class="cake-top"><i></i><i></i><i></i><i></i><i></i></div>
+        <div class="cake-body"><span class="icing"></span><span class="cake-line"></span></div>
+        <div class="cake-plate"></div>
+      </div>
+
+      <p class="sweet-note">May every beautiful dream of yours come true. ✨<br>Keep smiling, always! 💗</p>
+      <button class="small-button" id="wishButton">🕯 Make a wish & blow the candle</button>
+      <button class="small-button replay" id="replay">↻ Replay the surprise</button>
+      <p class="footer-note">MADE WITH LOVE ♥ JUST FOR MARYAM</p>
+    </section>
+  </main>
+
+  <div class="overlay hidden" id="proposal" role="dialog" aria-modal="true" aria-labelledby="proposalTitle">
+    <div class="popup" id="popup">
+      <div class="ring" aria-hidden="true">💍</div>
+      <p class="eyebrow">ONE LITTLE QUESTION...</p>
+      <h2 id="proposalTitle">Maryam, my heart has<br>a question</h2>
+      <p class="popup-subtitle">You make ordinary moments feel magical.</p>
+      <p class="question">Will you marry me? <span>♥</span></p>
+
+      <div class="button-stage" id="buttonStage">
+        <button class="action yes" id="yes">YES! 💖</button>
+        <button class="action no" id="no">NO 🙈</button>
+      </div>
+      <p class="catch-hint">Psst... try catching the NO button 😜</p>
+    </div>
+  </div>
+
+  <div class="toast hidden" id="toast">A wish made with love! 💗</div>
+  <script src="script.js"></script>
+</body>
+</html>
